@@ -1,0 +1,6 @@
+C:\Users\priyanshutyagi\source\repos\Backend\Backend\obj\Debug\net6.0\Account.csproj.AssemblyReference.cache
+C:\Users\priyanshutyagi\source\repos\Backend\Backend\obj\Debug\net6.0\Account.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\priyanshutyagi\source\repos\Backend\Backend\obj\Debug\net6.0\Account.AssemblyInfoInputs.cache
+C:\Users\priyanshutyagi\source\repos\Backend\Backend\obj\Debug\net6.0\Account.AssemblyInfo.cs
+C:\Users\priyanshutyagi\source\repos\Backend\Backend\obj\Debug\net6.0\Account.csproj.CoreCompileInputs.cache
+C:\Users\priyanshutyagi\source\repos\Backend\Backend\obj\Debug\net6.0\Account.MvcApplicationPartsAssemblyInfo.cache
