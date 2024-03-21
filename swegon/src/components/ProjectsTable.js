@@ -4,11 +4,13 @@ import { useAuth } from './AuthContext';
 
 const Table = styled.table`
   width: 100%;
+  border: 1px solid black; 
   border-collapse: collapse;
-
+  border-radius: 100px; 
   th,
   td {
-    border: 1px solid black;
+    border-top: none; 
+    
     padding: 8px;
     text-align: left;
   }
@@ -27,7 +29,6 @@ const Table = styled.table`
     margin-left: 5px;
   }
 `;
-
 const ProjectsTable = ({ projects, onDelete, onEdit, onShare }) => {
   const { isLoggedIn, getNameFromToken } = useAuth();
 

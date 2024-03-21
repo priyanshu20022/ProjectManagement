@@ -156,7 +156,7 @@ project.name.toLowerCase().includes(searchTerm.toLowerCase()) &&
        <Header />
        <Container>
         <Routes>
-        <Route path="/login" element={<Login />} /> {/* Route for login page */}
+        <Route path="/login" element={<Login />} /> 
         <Route path="/register" element={<Register />} /> 
           <Route path="/" element={
             <>
