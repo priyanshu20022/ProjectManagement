@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\priyanshutyagi\\source\\repos\\Backend\\Account\\Backend.csproj": {}
+    "C:\\Users\\priyanshutyagi\\OneDrive - Nagarro\\Desktop\\ProjectManage\\Backend\\Account\\Backend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\priyanshutyagi\\source\\repos\\Backend\\Account\\Backend.csproj": {
+    "C:\\Users\\priyanshutyagi\\OneDrive - Nagarro\\Desktop\\ProjectManage\\Backend\\Account\\Backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\priyanshutyagi\\source\\repos\\Backend\\Account\\Backend.csproj",
+        "projectUniqueName": "C:\\Users\\priyanshutyagi\\OneDrive - Nagarro\\Desktop\\ProjectManage\\Backend\\Account\\Backend.csproj",
         "projectName": "Backend",
-        "projectPath": "C:\\Users\\priyanshutyagi\\source\\repos\\Backend\\Account\\Backend.csproj",
+        "projectPath": "C:\\Users\\priyanshutyagi\\OneDrive - Nagarro\\Desktop\\ProjectManage\\Backend\\Account\\Backend.csproj",
         "packagesPath": "C:\\Users\\priyanshutyagi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\priyanshutyagi\\source\\repos\\Backend\\Account\\obj\\",
+        "outputPath": "C:\\Users\\priyanshutyagi\\OneDrive - Nagarro\\Desktop\\ProjectManage\\Backend\\Account\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\priyanshutyagi\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import { useAuth } from './AuthContext';
 import styled from 'styled-components';
-
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import { useNavigate } from 'react-router-dom'; 
 const Form = styled.form`
   display: flex;
   flex-direction: column;
@@ -29,6 +31,7 @@ const Button = styled.button`
 `;
 
 const Register = () => {
+  const navigate = useNavigate();
   const { signUp } = useAuth();
   const [registerData, setRegisterData] = useState({ name: '', email: '', password: '' });
 
@@ -41,9 +44,18 @@ const Register = () => {
     e.preventDefault();
     try {
       await signUp(registerData);
+      toast.success('Registration successful', {
+        position: 'top-right',
+        autoClose: 3000, 
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+      });
+      navigate('/login');
     } catch (error) {
       console.error('Registration error:', error);
-      // Optionally, handle registration error
     }
   };
 

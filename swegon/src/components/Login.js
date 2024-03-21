@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { useAuth } from './AuthContext';
 import { useNavigate } from 'react-router-dom';
 import styled from 'styled-components';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Form = styled.form`
   display: flex;
@@ -49,9 +51,27 @@ const Login = () => {
     e.preventDefault();
     try {
       await login(loginData);
+      toast.success('Login successful', {
+        position: 'top-right',
+        autoClose: 3000, 
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+      });
       navigate('/');
     } catch (error) {
       setError('Invalid email or password');
+      toast.error('User does not exist', {
+        position: "top-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+      });
     }
   };
 

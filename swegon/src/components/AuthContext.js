@@ -53,6 +53,7 @@ export const AuthProvider = ({ children }) => {
     }
   } catch (error) {
     console.error('Error authenticating user:', error);
+    throw error;
   }
   };
   

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6iW0dja2/uJvtZLFbIDoEJwyz1v+nrQogVfGUjYdHPCHKNu8M3XgIVvBPNXwXjb0t+on4K/+bBp4gkOH6Jndgw==",
+  "dgSpecHash": "4q4ITBXHEDgAYXZYY4B+AYqeZIxWTrnXPR+bzwSAJw4DUNGE8xvqPCerYmpHqTGKEuRfM4qXcrrK95f3pF4RmA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\priyanshutyagi\\source\\repos\\Backend\\Account\\Backend.csproj",
+  "projectFilePath": "C:\\Users\\priyanshutyagi\\OneDrive - Nagarro\\Desktop\\ProjectManage\\Backend\\Account\\Backend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\priyanshutyagi\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\priyanshutyagi\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
